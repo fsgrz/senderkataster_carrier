@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Senderkataster Betreiber-Ergänzung",
+  "version": "1.0",
+  "description": "Ergänzt den Betreiber basierend auf den Sendetechnologien auf senderkataster.at",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://www.senderkataster.at/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
